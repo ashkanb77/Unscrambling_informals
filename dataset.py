@@ -13,10 +13,10 @@ class UnscramblingInFormalDataset(Dataset):
         words = self.tokenizer.tokenize(row[0])
         shuffle(words)
         return (
-            words, row[1]
+            ' '.join(words), row[1]
         )
 
     def __len__(self):
-        return len(self.df)
+        return len(self.data)
 
 
