@@ -62,8 +62,8 @@ model.to(device)
 
 a = train_dataset[0]
 print()
-print('informal words ' + a[0])
-print('formal ' + a[1])
+print('words ' + a[0])
+print('unscrambling ' + a[1])
 print()
 print(f"You are using {device}")
 print()
