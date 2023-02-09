@@ -31,7 +31,7 @@ parser.add_argument(
 )
 parser.add_argument('--model_name', type=str, default='erfan226/persian-t5-paraphraser', help='model name')
 parser.add_argument('--init_model', type=str, default='-1', help='init model')
-parser.add_argument('--column_names', type=str, default='Shuffled Original', help='column names separated with space. first shuffled and second orginal.')
+parser.add_argument('--column_names', type=str, default='formalForm inFormalForm', help='column names separated with space. first shuffled and second orginal.')
 parser.add_argument('--checkpoint_dir', type=str, default='checkpoint', help='dataset directory')
 parser.add_argument('--resume_training_dir', type=str, default='-1', help='dataset directory')
 
