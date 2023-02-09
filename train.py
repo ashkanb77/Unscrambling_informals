@@ -22,7 +22,7 @@ parser.add_argument('--batch_size', type=int, default=32, help='batch size')
 parser.add_argument('--learning_rate', type=float, default=0.0001, help='learning rate')
 parser.add_argument('--tokenizer', type=str, default='erfan226/persian-t5-paraphraser', help='tokenizer')
 parser.add_argument(
-    '--train_informal', type=str,
+    '--train_dataset', type=str,
     default='dataset/train_informal.csv', help='train formal and informal sentences'
 )
 parser.add_argument(
